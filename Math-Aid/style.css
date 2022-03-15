@@ -1,0 +1,127 @@
+body{
+
+    background-color: rgb(2, 2, 22) !important;
+}
+
+@media (max-width: 768px) { 
+  .col-sm-6{
+    width: 100%;
+  }
+}
+.mainImg{
+    max-height: 600px;
+    width: 100%;
+}
+.row, .cardT, .cardt{
+    margin: 0 !important;
+    padding: 0 !important;
+   
+}
+/*Footer*/
+.footerSub{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+a{
+    text-decoration: none !important;
+}
+.card{
+    padding: 5%;
+    min-height: 250px;
+    border-style: none !important;
+    margin: 5%;
+}
+#Sub-section, #About_Us, #Services{
+    padding: 5%;
+    color: white !important;
+}
+.fab{
+    color: rgb(34, 100, 161);
+    padding-left: 10px;
+}
+
+/*Contact us form*/
+.contactSection {
+    background: rgba(224, 224, 224, 0.911);
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 10%;
+    padding-top: 6%;
+    transition: 1s;
+}
+    #cardLeft {
+        background-color: rgba(0, 98, 128, 0);
+        border-radius: 5px;
+    }
+    .subContact {
+        padding: 5%;
+        padding-bottom: 0 !important;
+        text-align: center;
+        color: rgba(39, 39, 39, 0.884);
+        transition: 1s;
+    }
+    .col-sm-6 {
+        padding-bottom: 4%;
+        transition: 1s;
+    }
+    .form-control {
+        background-color: rgba(65, 65, 65, 0);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+        padding: 3%;
+        color: rgb(0, 111, 175);
+        border-color: rgba(66, 66, 66, 0.24);
+    }
+    #exampleFormControlTextarea1 {
+        width: 100% !important;
+        border-radius: 0;
+        background-color: rgba(245, 245, 245, 0);
+        color: rgb(46, 46, 46);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: rgba(34, 34, 34, 0.205);
+        padding: 3%;
+    }
+    h2{
+        color: rgba(0, 98, 128, 0.884);
+    }
+    .btn .btn-primary{
+        width: 100% !important;
+        margin-top: 3%;
+        border-radius: 5px;
+        background-color: rgba(0, 98, 128, 0.884);
+        color: rgb(230, 230, 230);
+    }
+    .row {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    #emailSub {
+        background-color: rgba(255, 255, 255, 0.959);
+        padding: 1%;
+        margin-bottom: 1%;
+    }
+     ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(37, 37, 37);
+        opacity: 1;
+        /* Firefox */
+    }
+     :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: rgb(41, 41, 41);
+    }
+     ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: rgb(48, 48, 48);
+    }
+    #IconContact{
+        background-color: rgb(190, 190, 190) !important;
+        border-radius: 5px;
+        box-shadow: 1px 1px 20px 0px rgb(134, 134, 134);
+    }
