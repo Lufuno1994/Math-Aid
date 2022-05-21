@@ -8,47 +8,53 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
+    <script src="https://kit.fontawesome.com/db2059466e.js" crossorigin="anonymous"></script>
     <title>Math-Aid academy (PTY) LTD</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
           <div class="container-fluid">
-            <a class="navbar-brand "aria-current="page" href="#">PlaceYourLogo</a>
+            <a class="navbar-brand " href="/index.html"><img src="./pictures/Logo.png" class="Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <ul class="navbar-nav ml-auto">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
                 <a class="nav-link" href="./About.html">About</a>
                 <a class="nav-link" href="./Contact.html">Contact</a>
+                <a class="nav-link " href="./Booking.html">Bookings</a>
               </ul>
+              <span class="navbar-text">
+                <a type="button" href="Booksession.html" class="p-2"><i class="fa-solid fa-chalkboard-user"></i> Book Session</a>
+                <a data-bs-toggle="modal" data-bs-target="#LoginForm" type="button" class="p-2"><i class="fa-solid fa-user"></i> Login</a>
+              </span>
             </div>
           </div>
     </nav>
     <section id="Main-section">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner" >
               <div class="carousel-item active">
-                <img src="./pictures/1.jpg" class="mainImg">
-                <div class="carousel-caption">
-                  <h1>Welcome To</h1>
-                  <h3>Math-Aid Academy (PTY) LTD</h3>
+                <img src="./pictures/1.png" class="mainImg">
+                <div class="carousel-caption text-center">
+                  <h1 class="mainTitle">Helping young South African to excel in Maths</h1>
+                  <br>
+                  <a href="./About" class="btn btn-light text-dark">Learn More</a>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./pictures/2.jpg" class="mainImg">
+                <img src="./pictures/2.png" class="mainImg">
                 <div class="carousel-caption">
-                  <h1>Welcome To</h1>
-                  <h3>Math-Aid Academy (PTY) LTD</h3>
+                  <h1 class="mainTitle">Helping young South African to excel in Maths</h1>
+                  <a href="./About" class="btn btn-light text-dark">Learn More</a>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./pictures/3.jpg" class="mainImg">
+                <img src="./pictures/3.png" class="mainImg">
                 <div class="carousel-caption">
-                  <h1>Welcome To</h1>
-                  <h3>Math-Aid Academy (PTY) LTD</h3>
+                  <h1 class="mainTitle">Helping young South African to excel in Maths</h1>
+                  <a href="./About" class="btn btn-light text-dark">Learn More</a>
                 </div>
               </div>
             </div>
@@ -61,51 +67,67 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-          
     </section>
-    <br>
-    <a href="#" class="btn btn-primary">Jump to Top</a>
-    
-    <br>
+
     <footer class="bg-white">
-      <div class="row">
-            <div class="col-sm-4">
-              <div class="card text-center">
-                <div class="card-body">
-                  <h5 class="card-title">Services</h5>
-                  <p class="cardt">Grade 8-12(CAPS/IEB)</p>
-                  <p class="cardt">Matric rewrite/upgrade</p>
-                  <p class="cardt">Tertiatry Level</p>
-                  <p class="cardt">N1 to N6 Mathematics</p>
-                  <p class="cardt">NCV level 2-4</p>
-                </div>
-              </div>
+      <div class="row pt-5 bg-light">
+        <div class="col-sm-4">
+    
+            <div class="card-body text-center">
+              <h5 class="card-title">Services</h5>
+              <p class="cardt">Grade 8-12(CAPS/IEB)</p>
+              <p class="cardt">Matric rewrite/upgrade</p>
+              <p class="cardt">Tertiatry Level</p>
+              <p class="cardt">N1 to N6 Mathematics</p>
+              <p class="cardt">NCV level 2-4</p>
             </div>
-            <div class="col-sm-4">
-              <div class="card text-center">
-                <div class="card-body">
-                  <h5 class="card-title">Duration: </h5>
-                  <p class="cardT"> Mon- Fri : 60min - 90min</p>
-              </div>
-            </div>
-          <div class="col-sm-4">
-              <div class="card text-center">
-                <div class="card-body">
-                  <h5 class="card-title">Contact details</h5>
-                  <p class="card-text">+27 64 753 5622 | +27 81 731 9648</p>
-                  <a href="https://www.facebook.com/@MathAidAcademy"><i class="fab fa-facebook fa-3x"></i></a>
-                  <a href="https://wa.me/message/"><i class="fab fa-whatsapp fa-3x text-success"></i></a>
-                </div>
-              </div>
-            </div>
+          
         </div>
-          <div class="footerSub text-center">
-            <hr>
-            <br>
-            <a class="text-dark" href="">All rights reserved for Math-Aid academy (PTY) LTD</a>
-            <p class="text-dark" href="">Copyright © | Math-Aid Academy (PTY) LTD</p>
+        <div class="col-sm-4">
+          <div class="card-body text-center">
+            <h5 class="card-title">Duration: </h5>
+            <p class="cardT"> Mon- Fri : 60min - 90min</p>
           </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card-body text-center">
+            <h5 class="card-title">Contact details</h5>
+            <p class="card-text">+27 64 753 5622 | +27 81 731 9648</p>
+            <a href="https://www.facebook.com/@MathAidAcademy"><i class="fab fa-facebook fa-3x"></i></a>
+            <a href="https://wa.me/message/"><i class="fab fa-whatsapp fa-3x text-success"></i></a>
+          </div>
+        </div>
+       </div>
+       <div class="footerSub text-center">
+          <a class="text-dark" href=""><small>All rights reserved for Math-Aid academy (PTY) LTD</small></a>
+          <p class="text-dark" href=""><small>Copyright © | Math-Aid Academy (PTY) LTD</small></p>
+        </div>
     </footer>
+
+    <!-- Modal Login-->
+    <div class="modal fade" id="LoginForm" tabindex="-1" aria-labelledby="LoginFormLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content mt-0" style="margin: 0 !important; padding: 0 !important; background-color: #090427;">
+          <div class="modal-header m-0" style="margin: 0 !important; padding: 5px !important;">
+            <h5 class="modal-title" id="LoginFormLabel"><img src="./pictures/logo.png" width="20%" alt=""></h5>
+            <a type="button" class="btn-clos text-light p-3" data-bs-dismiss="modal" aria-label="Close">X</a>
+          </div>
+          <div class="modal-body bg-light">
+            <div class="card-body p-5 text-center" id="cardLeft">
+              <div>
+                  <h3 class="text-dark p-2">Login</h3>
+              </div>
+              <form method="post">
+                   <input type="email " name="email" class="form-control" id="exampleFormControlInput1" placeholder="Email " required>
+                   <textarea type="password" name="password" class="form-control" id="exampleFormControlTextarea1" rows="1 " placeholder="password" required></textarea>
+                   <button type="submit" name="sendEmail" class="btn btn-secondary mt-3 w-50">Login</button><br>
+                   <a class="text-secondary p-2" href="./Signup.html"><small>Sign in</small></a>
+              </form>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
